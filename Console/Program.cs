@@ -88,7 +88,7 @@ namespace GithubActionsLab
             for (int i = 1; i < double.Parse(y); i++) {
                 num *= double.Parse(x);
             }
-            return double.Parse(x);
+            return num;
         }
     }
 
